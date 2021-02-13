@@ -4,52 +4,39 @@
 {% endblock %}
 {% block title %}Outdoor{% endblock %}
 {% block content %}
-<div class="container">
-<center
-<div class="card" style="width: 40rem;">
-  <img class="card-img-top" src="{{ url_for('static', filename='img/eiger.jpg') }}" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Eiger Store</h5>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item"><a href="https://eigeradventure.com/" > https://eigeradventure.com/ </a> </li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link"> </a>
-    <a href="#" class="card-link"> </a>
-  </div>
+<br>
+<div class="row">
+	<div class="col-sm-12">
+		<div class="card-deck">
+		  <div class="card"><br>
+		    <img src="{{ url_for('static', filename='img/eiger.jpg') }}" height="150px"  class="card-img-top" alt="gambar">
+		    <div class="card-body">
+		      <h5 class="card-title">Eiger Store</h5>
+		    </div>
+		    <div class="card-footer">
+		      <small class="text-muted"><a href="https://eigeradventure.com/" > https://eigeradventure.com/ </a></small>
+		    </div>
+		  </div>
+		  <div class="card"><br>
+		    <img src="{{ url_for('static', filename='img/AREI.jpg') }}" height="150px" class="card-img-top" alt="gambar">
+		    <div class="card-body">
+		      <h5 class="card-title">AREI Store</h5>
+		    </div>
+		    <div class="card-footer">
+		      <small class="text-muted"><a href="https://areioutdoorgear.co.id/" > https://areioutdoorgear.co.id/ </a></small>
+		    </div>
+		  </div>
+		  <div class="card"><br>
+		    <img src="{{ url_for('static', filename='img/Consina.jpg') }}" height="150px" class="card-img-top" alt="gambar">
+		    <div class="card-body">
+		      <h5 class="card-title">Consina Store</h5>
+		    </div>
+		    <div class="card-footer">
+		      <small class="text-muted"><a href="https://shop.consina-adventure.com/" > https://shop.consina-adventure.com/ </a></small>
+		    </div>
+		  </div>
+		</div>
+	</div>
 </div>
-</center>
-
-<div class="container">
-<center
-<div class="card" style="width: 40rem;">
-  <img class="card-img-top" src="{{ url_for('static', filename='img/AREI.jpg') }}" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Arei Outdoor</h5>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item"><a href="https://areioutdoorgear.co.id/" > https://areioutdoorgear.co.id/ </a> </li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link"> </a>
-    <a href="#" class="card-link"> </a>
-  </div>
-
-  <div class="container">
-  <center
-<div class="card" style="width: 40rem;">
-  <img class="card-img-top" src="{{ url_for('static', filename='img/Consina.jpg') }}" alt="Card image cap">
-  <div class="card-body">
-    <h5 class="card-title">Consina</h5>
-  </div>
-  <ul class="list-group list-group-flush">
-    <li class="list-group-item" ><a href="http://shop.consina-adventure.com/" > http://shop.consina-adventure.com/</a> </li>
-  </ul>
-  <div class="card-body">
-    <a href="#" class="card-link"> </a>
-    <a href="#" class="card-link"> </a>
-  </div>
-</div>
-</center>
+<br><br><br>
 {% endblock %}
