@@ -6,10 +6,10 @@
 {% block content %}
 <br>
 <div class="row">
-	<div class="col-sm-12">
-		<div class="card-deck">
+	<div class="col-sm-8">
+		<center><div class="card-deck">
 		  <div class="card"><br>
-		    <img src="{{ url_for('static', filename='img/eiger.jpg') }}" height="150px"  class="card-img-top" alt="gambar">
+		    <img src="{{ url_for('static', filename='img/eiger.jpg') }}"  height="250px"  alt="gambar">
 		    <div class="card-body">
 		      <h5 class="card-title">Eiger Store</h5>
 		    </div>
@@ -18,7 +18,7 @@
 		    </div>
 		  </div>
 		  <div class="card"><br>
-		    <img src="{{ url_for('static', filename='img/AREI.jpg') }}" height="150px" class="card-img-top" alt="gambar">
+		    <img src="{{ url_for('static', filename='img/AREI.jpg') }}" height="250px" class="card-img-top" alt="gambar">
 		    <div class="card-body">
 		      <h5 class="card-title">AREI Store</h5>
 		    </div>
@@ -27,16 +27,19 @@
 		    </div>
 		  </div>
 		  <div class="card"><br>
-		    <img src="{{ url_for('static', filename='img/Consina.jpg') }}" height="150px" class="card-img-top" alt="gambar">
+		    <img src="{{ url_for('static', filename='img/Consina.jpg') }}" width="300px" height="250px" class="card-img-top" alt="gambar">
 		    <div class="card-body">
-		      <h5 class="card-title">Consina Store</h5>
+		      <h5 class="card-title" align="center">Consina Store</h5>
 		    </div>
 		    <div class="card-footer">
-		      <small class="text-muted"><a href="https://shop.consina-adventure.com/" > https://shop.consina-adventure.com/ </a></small>
+		      <small class="text-muted"><a href="https://shop.consina-adventure.com/">https://shop.consina-adventure.com/ </a></small>
 		    </div>
 		  </div>
 		</div>
+        </center>
 	</div>
 </div>
+
+
 <br><br><br>
 {% endblock %}
